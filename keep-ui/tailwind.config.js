@@ -26,10 +26,10 @@ module.exports = {
         // light mode
         tremor: {
           brand: {
-            faint: "rgb(255 247 237)", // orange-50
-            muted: "rgb(255 237 213)", // orange-200
-            subtle: "rgb(251 146 60)", // orange-400
-            DEFAULT: "rgb(249 115 22)", // orange-500
+            faint: "rgb(240 253 249)", // green-50
+            muted: "rgb(204 251 241)", // green-100
+            subtle: "rgb(52 211 153)", // green-400
+            DEFAULT: "#007F60", // custom green (user specified)
             emphasis: "#374151", //  gray-700
             inverted: "#ffffff", // white
           },
@@ -56,11 +56,11 @@ module.exports = {
         // dark mode
         "dark-tremor": {
           brand: {
-            faint: "#0B1229", // custom
-            muted: "#172554", // blue-950
-            subtle: "#1e40af", // blue-800
-            DEFAULT: "#3b82f6", // blue-500
-            emphasis: "#60a5fa", // blue-400
+            faint: "#1a2e05", // dark green
+            muted: "#365314", // dark green-800
+            subtle: "#4d7c0f", // green-700
+            DEFAULT: "#97F20F", // custom lime green (user specified)
+            emphasis: "#bef264", // green-300
             inverted: "#030712", // gray-950
           },
           background: {

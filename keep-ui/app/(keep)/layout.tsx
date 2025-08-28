@@ -52,7 +52,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
                       process.env.SHOW_BUILD_INFO !== "false" && (
                         <div className="pointer-events-none opacity-80 w-full p-2 text-slate-400 text-xs">
                           <div className="w-full text-right">
-                            Version: {process.env.KEEP_VERSION} | Build:{" "}
+                            Version: {process.env.INFINITOPS_VERSION} | Build:{" "}
                             {process.env.GIT_COMMIT_HASH.slice(0, 6)}
                           </div>
                         </div>

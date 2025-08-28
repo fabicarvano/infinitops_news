@@ -1,7 +1,7 @@
 {
-  "name": "keep-ui",
+  "name": "infinitops-ui",
   "version": "1.0.0",
-  "description": "Keep UI",
+  "description": "InfinitOps UI",
   "main": "next.config.js",
   "scripts": {
     "build-monaco-workers": "node scripts/build-monaco-workers-turbopack.js",
