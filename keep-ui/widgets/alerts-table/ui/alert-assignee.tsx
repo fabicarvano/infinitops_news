@@ -15,7 +15,7 @@ export default function AlertAssignee({ assignee }: Props) {
   }
 
   const user = users.find((user) => user.email === assignee);
-  const userName = user?.name || "Keep";
+  const userName = user?.name || "InfinitOps";
 
   return !imageError ? (
     // eslint-disable-next-line @next/next/no-img-element

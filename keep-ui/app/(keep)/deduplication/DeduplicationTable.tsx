@@ -163,7 +163,7 @@ export const DeduplicationTable: React.FC<DeduplicationTableProps> = ({
           const providerName =
             matchingProvider?.details.name ||
             info.row.original.provider_id ||
-            "Keep";
+            "InfinitOps";
 
           return (
             <div className="flex flex-row items-center max-w-[320px]">

@@ -2,7 +2,7 @@ import { Card, Text } from "@tremor/react";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Keep",
+  title: "InfinitOps",
   description: "The open-source alert management and AIOps platform",
 };
 

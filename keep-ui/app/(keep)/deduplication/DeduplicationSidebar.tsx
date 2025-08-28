@@ -81,7 +81,7 @@ const DeduplicationSidebar: React.FC<DeduplicationSidebarProps> = ({
   const alertProviders = useMemo(
     () =>
       [
-        { id: null, type: "keep", details: { name: "Keep" }, tags: ["alert"] },
+        { id: null, type: "keep", details: { name: "InfinitOps" }, tags: ["alert"] },
         ...providers.installed_providers,
         ...providers.linked_providers,
       ].filter((provider) => provider.tags?.includes("alert")),

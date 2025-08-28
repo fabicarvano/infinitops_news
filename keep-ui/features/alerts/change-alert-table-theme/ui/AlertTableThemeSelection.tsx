@@ -36,7 +36,7 @@ export const predefinedThemes = {
 
 const themeKeyMapping = {
   0: "Transparent",
-  1: "Keep",
+  1: "InfinitOps",
   2: "Basic",
 };
 

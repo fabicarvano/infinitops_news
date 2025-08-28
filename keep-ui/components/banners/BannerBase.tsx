@@ -2,26 +2,26 @@
 import React from "react";
 import { Text, Button } from "@tremor/react";
 import Image from "next/image";
-import KeepPng from "../../keep.png";
+import InfinitOpsPng from "../../keep.png";
 import { capture } from "@/shared/lib/capture";
 
-type KeepBannerProps = {
+type InfinitOpsBannerProps = {
   bannerId: string;
   text: string | React.ReactElement<any, any>;
   newWindow: boolean;
 }
 
-const KeepBanner = ({
+const InfinitOpsBanner = ({
   bannerId,
   text,
   newWindow = false,
-}: KeepBannerProps)  => {
+}: InfinitOpsBannerProps)  => {
   return (
-    <div className="w-full py-2 pl-4 pr-2 mb-4 bg-orange-50 border border-orange-200 rounded-lg">
+    <div className="w-full py-2 pl-4 pr-2 mb-4 bg-green-50 border border-green-200 rounded-lg">
       <div className="flex items-center justify-between gap-4">
         <Image
-          src={KeepPng}
-          alt="Keep Logo"
+          src={InfinitOpsPng}
+          alt="InfinitOps Logo"
           width={20}
           height={20}
           className="inline-block mr-2"
@@ -72,4 +72,4 @@ const KeepBanner = ({
   );
 };
 
-export default KeepBanner;
+export default InfinitOpsBanner;
