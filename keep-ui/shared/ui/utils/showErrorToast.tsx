@@ -26,11 +26,11 @@ export function showErrorToast(
       <>
         You&apos;re in read-only mode. Sign up at{" "}
         <Link
-          href="https://keephq.dev"
+          href="https://infinitops.dev"
           target="_blank"
           rel="noreferrer noopener"
         >
-          keephq.dev
+          infinitops.dev
         </Link>{" "}
         to get your own instance!
       </>,

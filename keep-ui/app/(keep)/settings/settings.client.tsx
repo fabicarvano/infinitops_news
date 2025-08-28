@@ -55,7 +55,7 @@ export default function SettingsPage() {
   const [userSubTabIndex, setUserSubTabIndex] = useState<number>(0);
 
   const authType = configData?.AUTH_TYPE as AuthType;
-  const docsUrl = configData?.KEEP_DOCS_URL || "https://docs.keephq.dev";
+  const docsUrl = configData?.KEEP_DOCS_URL || "https://docs.infinitops.dev";
 
   // future: feature flags
   const usersAllowed = authType !== AuthType.NOAUTH;
@@ -275,25 +275,25 @@ export default function SettingsPage() {
               id: "1",
               name: "NOC Preset",
               type: "preset",
-              assignments: ["user_noc@keephq.dev"],
+              assignments: ["user_noc@infinitops.dev"],
             },
             {
               id: "2",
               name: "Dev Preset",
               type: "preset",
-              assignments: ["user_noc@keephq.dev", "user_admin@keephq.dev"],
+              assignments: ["user_noc@infinitops.dev", "user_admin@infinitops.dev"],
             },
             {
               id: "3",
               name: "QA Preset",
               type: "preset",
-              assignments: ["user_noc@keephq.dev", "user_admin@keephq.dev"],
+              assignments: ["user_noc@infinitops.dev", "user_admin@infinitops.dev"],
             },
             {
               id: "4",
               name: "Prod Preset",
               type: "preset",
-              assignments: ["user_noc@keephq.dev", "user_admin@keephq.dev"],
+              assignments: ["user_noc@infinitops.dev", "user_admin@infinitops.dev"],
             },
           ];
           return (

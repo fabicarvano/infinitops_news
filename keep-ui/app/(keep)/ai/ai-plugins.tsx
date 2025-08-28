@@ -125,7 +125,7 @@ export function AIPlugins() {
                     </p>
                     <p className="pt-2">
                       <a
-                        href="https://www.keephq.dev/meet-keep"
+                        href="https://www.infinitops.dev/meet-keep"
                         className="text-orange-500 underline"
                       >
                         Talk to us to get access!

@@ -619,7 +619,7 @@ const ProviderForm = ({
                   >
                     <a
                       href={`${
-                        config?.KEEP_DOCS_URL || "https://docs.keephq.dev"
+                        config?.KEEP_DOCS_URL || "https://docs.infinitops.dev"
                       }/development/external-url`}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -752,7 +752,7 @@ const ProviderForm = ({
           <Link
             className="text-orange-600 underline"
             href={`${
-              config?.KEEP_DOCS_URL || "http://docs.keephq.dev"
+              config?.KEEP_DOCS_URL || "http://docs.infinitops.dev"
             }/providers/documentation/${provider.type}-provider`}
             target="_blank"
           >

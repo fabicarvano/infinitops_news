@@ -207,7 +207,7 @@ export const AlertSidebar = ({
                             <Link
                               href={`${
                                 config?.KEEP_DOCS_URL ||
-                                "https://docs.keephq.dev"
+                                "https://docs.infinitops.dev"
                               }/overview/fingerprints`}
                               className="text-white"
                             >

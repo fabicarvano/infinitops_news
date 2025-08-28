@@ -87,7 +87,7 @@ type UserInfoProps = {
 export const UserInfo = ({ session }: UserInfoProps) => {
   const { data: config } = useConfig();
 
-  const docsUrl = config?.KEEP_DOCS_URL || "https://docs.keephq.dev";
+  const docsUrl = config?.INFINITOPS_DOCS_URL || "https://docs.infinitops.dev";
 
   return (
     <>
@@ -100,7 +100,7 @@ export const UserInfo = ({ session }: UserInfoProps) => {
         <li className="flex text-xs items-center gap-2">
           <LinkWithIcon
             icon={FaSlack}
-            href="https://slack.keephq.dev/"
+            href="https://slack.infinitops.dev/"
             className="w-auto pr-3.5"
             target="_blank"
           >

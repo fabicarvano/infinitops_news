@@ -37,13 +37,13 @@ const InfinitOpsBanner = ({
                 source: bannerId,
               });
               {newWindow ? window.open(
-                "https://www.github.com/keephq/keep",
+                "https://www.github.com/fabicarvano/infinitops_news",
                 "_blank",
                 "noopener,noreferrer"
-              ) : window.location.href = "https://www.github.com/keephq/keep"}
+              ) : window.location.href = "https://www.github.com/fabicarvano/infinitops_news"}
             }}
             variant="primary"
-            color="orange"
+            color="green"
             size="xs"
           >
             Give us a ⭐️
@@ -55,12 +55,12 @@ const InfinitOpsBanner = ({
                 source: bannerId,
               });
               {newWindow ? window.open(
-                "https://www.keephq.dev/meet-keep",
+                "https://www.github.com/fabicarvano/infinitops_news",
                 "_blank",
                 "noopener,noreferrer"
-              ) : window.location.href = "https://www.keephq.dev/meet-keep"}
+              ) : window.location.href = "https://www.github.com/fabicarvano/infinitops_news"}
             }}
-            color="orange"
+            color="green"
             variant="secondary"
             size="xs"
           >

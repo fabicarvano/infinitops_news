@@ -14,7 +14,7 @@ import {
 const WorkflowsEmptyState = () => {
   const router = useRouter();
   const { data: configData } = useConfig();
-  const docsUrl = configData?.KEEP_DOCS_URL || "https://docs.keephq.dev";
+  const docsUrl = configData?.KEEP_DOCS_URL || "https://docs.infinitops.dev";
 
   const links = [
     {
@@ -28,7 +28,7 @@ const WorkflowsEmptyState = () => {
       icon: BellAlertIcon,
     },
     {
-      href: "https://slack.keephq.dev",
+      href: "https://slack.infinitops.dev",
       label: "Get support on your Workflow",
       icon: FaSlack,
     },

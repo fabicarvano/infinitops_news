@@ -149,7 +149,7 @@ const ProviderHealthResultsModal = ({
           color="orange"
           variant="primary"
           className="w-full"
-          onClick={() => window.open(`https://platform.keephq.dev/providers`)}
+          onClick={() => window.open(`https://platform.infinitops.dev/providers`)}
         >
           Sign up to Keep
         </Button>
