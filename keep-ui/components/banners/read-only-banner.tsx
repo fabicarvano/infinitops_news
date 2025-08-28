@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import KeepBanner from "@/components/banners/BannerBase";
+import InfinitOpsBanner from "@/components/banners/BannerBase";
 
 const ReadOnlyBanner = () => {
-  return <KeepBanner
+  return <InfinitOpsBanner
     bannerId="read-only-banner"
-    text="Keep is in read-only mode."
+    text="InfinitOps is in read-only mode."
     newWindow={true}
   />
 };

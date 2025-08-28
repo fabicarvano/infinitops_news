@@ -31,7 +31,7 @@ import { MdOutlineEngineering, MdOutlineSearchOff } from "react-icons/md";
 import { useConfig } from "utils/hooks/useConfig";
 import { Session } from "next-auth";
 import { signIn } from "next-auth/react";
-import KeepPng from "../../keep.png";
+import InfinitOpsPng from "../../keep.png";
 
 const NAVIGATION_OPTIONS = [
   {
@@ -100,7 +100,7 @@ export const Search = ({ session }: SearchProps) => {
   const router = useRouter();
   const comboboxInputRef = useRef<ElementRef<"input">>(null);
   const { data: configData } = useConfig();
-  const docsUrl = configData?.KEEP_DOCS_URL || "https://docs.keephq.dev";
+  const docsUrl = configData?.INFINITOPS_DOCS_URL || "https://docs.infinitops.dev";
   const [isLoading, setIsLoading] = useState(false);
 
   // Log session for debugging
@@ -111,21 +111,21 @@ export const Search = ({ session }: SearchProps) => {
   const EXTERNAL_OPTIONS = [
     {
       icon: FileTextIcon,
-      label: "Keep Docs",
+      label: "InfinitOps Docs",
       shortcut: ["⇧", "D"],
       navigate: docsUrl,
     },
     {
       icon: GitHubLogoIcon,
-      label: "Keep Source code",
+      label: "InfinitOps Source code",
       shortcut: ["⇧", "C"],
-      navigate: "https://github.com/keephq/keep",
+      navigate: "https://github.com/fabicarvano/infinitops_news",
     },
     {
       icon: TwitterLogoIcon,
-      label: "Keep Twitter",
+      label: "InfinitOps Twitter",
       shortcut: ["⇧", "T"],
-      navigate: "https://twitter.com/keepalerting",
+      navigate: "https://twitter.com/infinitops",
     },
   ];
 
@@ -344,7 +344,7 @@ export const Search = ({ session }: SearchProps) => {
                   className="focus:outline-none flex items-center"
                   disabled={isLoading}
                 >
-                  <Image className="w-8" src={KeepPng} alt="Keep Logo" />
+                  <Image className="w-8" src={InfinitOpsPng} alt="InfinitOps Logo" />
                   {tenantLogoUrl && (
                     <Image
                       src={tenantLogoUrl || ""}
@@ -384,7 +384,7 @@ export const Search = ({ session }: SearchProps) => {
           </Popover>
         ) : (
           <Link href="/" className="flex items-center">
-            <Image className="w-8" src={KeepPng} alt="Keep Logo" />
+            <Image className="w-8" src={InfinitOpsPng} alt="InfinitOps Logo" />
             {hasTenantLogo && (
               <Image
                 src={tenantLogoUrl || ""}

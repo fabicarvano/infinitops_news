@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import KeepBanner from "@/components/banners/BannerBase";
+import InfinitOpsBanner from "@/components/banners/BannerBase";
 
 const HealthPageBanner = () => {
-  return <KeepBanner
+  return <InfinitOpsBanner
     bannerId="health-page-banner"
     text={<span>
       Easily check the configuration quality of your observability tools without the need to sign up.
